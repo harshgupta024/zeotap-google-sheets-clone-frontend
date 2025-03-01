@@ -1,0 +1,79 @@
+/* 📌 Home Container */
+.home-container {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+/* 📝 Input Field & Button */
+.input-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    width: 70%;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* 📜 Sheet List */
+.sheet-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* 📌 Each Sheet Item */
+.sheet-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* 📌 Sheet Title */
+.sheet-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* ✏️ Edit & 🗑️ Delete Buttons */
+.edit-button {
+    background-color: #007bff;
+    margin-right: 5px;
+}
+
+.edit-button:hover {
+    background-color: #0056b3;
+}
+
+.delete-button {
+    background-color: #dc3545;
+}
+
+.delete-button:hover {
+    background-color: #c82333;
+}
